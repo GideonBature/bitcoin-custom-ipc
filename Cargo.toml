@@ -4,3 +4,6 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+serde = { version = "1.0.218", features = ["full"]}
+serde_json = "1.0.139"
+tokio = { version = "1.43.0", features = ["full"] }
